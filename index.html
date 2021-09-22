@@ -162,6 +162,21 @@
 				</div>
 			</section>
 
+			<!--========== DIRECTORS ==========-->
+			<section class="menu section bd-container">
+				<span class="section-subtitle">Partnership</span>
+				<h2 class="section-title">Our Directors</h2>
+
+				<div class="menu__container bd-grid">
+					<h3>Bernard Barasa</h3>
+					<h3>Joseph Mutinda</h3>
+					<h3>Du Hou Ren</h3>
+					<!-- <p>Track project progress and fine-tune deviations.</p>
+					<p>Supervise closely on quality of work done.</p>
+					<p>Complete and commission the project on time.</p> -->
+				</div>
+			</section>
+
 			<!--===== APP =======-->
 			<section class="app section bd-container">
 				<div class="app__container bd-grid">
@@ -207,7 +222,7 @@
 						<h2 class="section-title contact__initial">Contact us</h2>
 						<p class="contact__description">
 							Want to get in touch? We'd love to hear from you. Here is how you
-							can reach us...
+							can reach us on +254705044922. We are always ready to serve you.
 						</p>
 					</div>
 
@@ -261,19 +276,25 @@
 				<div class="footer__content">
 					<h3 class="footer__title">Address</h3>
 					<ul>
-						<li>Liza Apartments</li>
-						<li>Rhapta Road, Westlands</li>
-						<li>P.O. Box 42391</li>
+						<li>P.O. Box 19701</li>
+						<li>00100 - G.P.O</li>
 						<li>Nairobi, Kenya</li>
 					</ul>
 				</div>
 			</div>
 
-			<p class="footer__copy">&#169; Copyright 2020. All rights reserved.</p>
+			<p class="footer__copy">
+				&#169; Copyright
+				<span id="year"></span>
+				. All rights reserved.
+			</p>
 		</footer>
 
 		<!--========== SCROLL REVEAL ==========-->
 		<script src="https://unpkg.com/scrollreveal"></script>
+		<script>
+			document.getElementById('year').innerHTML = new Date().getFullYear();
+		</script>
 
 		<!--========== MAIN JS ==========-->
 		<script src="assets/js/main.js"></script>
